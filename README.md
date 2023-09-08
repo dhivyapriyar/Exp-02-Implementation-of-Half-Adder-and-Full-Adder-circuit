@@ -45,23 +45,36 @@ Program to design a half adder and full adder circuit and verify its truth table
 Developed by: Dhivyapriya.R
 
 RegisterNumber:212222230032  
-```
+
 ## half adder
+
 module exp3 (a,b,sum,carry);
+
 input a,b;
+
 output sum,carry;
+
 assign sum = (a^b);
+
 assign carry = (a&b);
+
 endmodule
 
 ## Full adder
+
 module exp3f (a,b,c,sum,carry);
+
 input a,b,c;
+
 output sum,carry;
+
 assign sum = (a^b^c);
+
 assign carry = ((a&b)|(a^b)&c);
+
 endmodul
 
+```
 ### Output:
 ### RTL
 
